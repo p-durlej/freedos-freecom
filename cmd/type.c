@@ -76,7 +76,7 @@ int cmd_type(char *param)
 				}
 			}
 			dos_write(1, bufp, p - bufp);
-			if (len < sizeof(buf) || *p == 26) break;
+			if (len == 0 || *p == 26) break;
 		}
 		dos_close(fd);
 		if(cbreak) {

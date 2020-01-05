@@ -1274,6 +1274,7 @@ int cmd_dir (char * rest) {
   dispLFN = 0;
 #endif
   attrMay = ATTR_DEFAULT;
+  need_nl = 0;
 
   /* read the parameters from env */
   if ((argv = scanCmdline(p = getEnv("DIRCMD"), opt_dir, 0, &argc, &opts))

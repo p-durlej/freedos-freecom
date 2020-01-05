@@ -653,19 +653,19 @@ has no label
  Volume Serial Number is %04X-%04X
 .
 :TEXT_DIR_FTR_FILES#1%
-%10s file(s)\
+%6s file(s)\
 .
 :TEXT_DIR_FTR_BYTES#0%
-   %12s bytes
+   %11s bytes
 .
 :TEXT_DIR_FTR_TOTAL_NUMBER
 Total files listed:
 .
 :TEXT_DIR_FTR_DIRS#1%
-%10s dir(s)\
+%6s dir(s)\
 .
 :TEXT_DIR_FTR_BYTES_FREE#0%
- %15s bytes free
+ %14s bytes free
 .
 :TEXT_DIR_DIRECTORY#0%
 Directory of %s
@@ -686,10 +686,10 @@ Directory of %s
 %-8s %-3s \
 .
 :TEXT_DIR_LINE_SIZE_DIR#1
-        <DIR> \
+     <DIR>\
 .
 :TEXT_DIR_LINE_SIZE#1%
-   %10s \
+%10s\
 .
 
 :TEXT_FILE_COMPLATION_DISPLAY#1%

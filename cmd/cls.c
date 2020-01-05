@@ -53,7 +53,7 @@
 
 int cmd_cls (char * param) {
     (void)param;
-    outc( '\xc' ); /* ^L Form feed */
+	outs("\014\b \b"); /* ^L Form feed */
 
 	/* Output stream is neither a file nor NUL nor CLOCK$ */
 	if(((fdattr(1) ^ 0x80) & (0x80 | 0x08 | 0x04)) == 0) {

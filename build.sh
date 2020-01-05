@@ -27,7 +27,7 @@ if [ ! -f config.mak ]; then
 fi
 
 export XNASM=nasm
-export COMPILER=watcom
+export COMPILER=gcc
 if [ -z "$WATCOM" ]; then
   export WATCOM=$HOME/watcom
   export PATH=$PATH:$WATCOM/binl

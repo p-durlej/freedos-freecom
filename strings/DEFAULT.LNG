@@ -93,12 +93,12 @@
 #
 ## Issued if a single character option is unknown
 :TEXT_ERROR_INVALID_SWITCH#0%
-Invalid switch. - /%c
+Invalid switch - /%c
 .
 
 ## Issued if a longname option is unknown
 :TEXT_ERROR_INVALID_LSWITCH#0%
-Invalid switch. - /%s
+Invalid switch - /%s
 .
 
 ## Issued if the context, the type of argument etc. is invalid
@@ -107,7 +107,7 @@ Ill-formed option: '%s'
 .
 
 :TEXT_ERROR_OPT_ARG#0%
-Option '%s' can not have an argument
+Option '%s' cannot have an argument
 .
 
 :TEXT_ERROR_OPT_NOARG#0%
@@ -127,27 +127,27 @@ Can not create temporary file
 .
 
 :TEXT_ERROR_TOO_MANY_PARAMETERS_STR#0%
-Too many parameters. - '%s'
+Too many parameters - '%s'
 .
 
 :TEXT_ERROR_TOO_MANY_PARAMETERS
-Too many parameters.
+Too many parameters
 .
 
 :TEXT_ERROR_INVALID_PARAMETER#0%
-Invalid parameter. - '%s'
+Invalid parameter - '%s'
 .
 
 :TEXT_ERROR_PATH_NOT_FOUND
-Path not found.
+Path not found
 .
 
 :TEXT_ERROR_FILE_NOT_FOUND
-File not found.
+File not found
 .
 
 :TEXT_ERROR_SFILE_NOT_FOUND#0%
-File not found. - '%s'
+File not found - '%s'
 .
 
 :TEXT_ERROR_REQ_PARAM_MISSING#0%
@@ -155,19 +155,19 @@ Required parameter missing.
 .
 
 :TEXT_ERROR_INVALID_DRIVE#0%
-Invalid drive %c:.
+Invalid drive %c:
 .
 
 :TEXT_ERROR_BADCOMMAND#2%
-Bad command or filename - "%s".
+Bad command or file name - "%s"
 .
 
 :TEXT_ERROR_OUT_OF_MEMORY
-Out of memory error.
+Out of memory error
 .
 
 :TEXT_ERROR_OUT_OF_DOS_MEMORY#1
-Allocation of DOS memory failed.
+Allocation of DOS memory failed
 .
 
 :TEXT_ERROR_CANNOTPIPE
@@ -179,15 +179,15 @@ Line #%ld in batchfile '%s' too long.
 .
 
 :TEXT_ERROR_BFILE_VANISHED#0%
-Batchfile '%s' not found.
+Batch file '%s' not found
 .
 
 :TEXT_ERROR_BFILE_LABEL#0%
-Batchfile '%s' does not contain label '%s'.
+Batch file '%s' does not contain label '%s'.
 .
 
 :TEXT_ERROR_DIRFCT_FAILED#1%
-%s failed for '%s'.
+%s failed for '%s'
 .
 # The next three errors must remain in this order!
 :TEXT_ERROR_SET_ENV_VAR#0%
@@ -195,7 +195,7 @@ Can not set environment variable '%s'.
 Environment full?
 .
 :TEXT_ERROR_ENV_VAR_NOT_FOUND#0%
-Environment variable '%s' not found.
+Environment variable '%s' not found
 .
 :TEXT_ERROR_NO_ENVIRONMENT
 No environment. Maybe memory short. Specify /E option.
@@ -206,22 +206,22 @@ No environment. Maybe memory short. Specify /E option.
 Can not set alias '%s'. Alias space full?
 .
 :TEXT_ERROR_ALIAS_NOT_FOUND#1%
-Alias '%s' not found.
+Alias '%s' not found
 .
 :TEXT_ERROR_NO_ALIAS_SEGMENT#1
 No alias space. Maybe memory short.
 .
 
 :TEXT_ERROR_SYNTAX_STR#0%
-Syntax error. - '%s'
+Syntax error - '%s'
 .
 
 :TEXT_ERROR_SYNTAX
-Syntax error.
+Syntax error
 .
 
 :TEXT_ERROR_FILENAME_TOO_LONG#0%
-Filename too long. - '%s'
+File name too long - '%s'
 .
 
 :TEXT_ERROR_SELFCOPY#0%
@@ -233,32 +233,32 @@ Command line too long after alias expansion!
 .
 
 :TEXT_ERROR_LINE_TOO_LONG
-Commandline longer than 125 characters.
+Commandline longer than 125 characters
 .
 
 :TEXT_ERROR_HISTORY_SIZE#1%
-Invalid history size '%s'.
+Invalid history size '%s'
 .
 
 :TEXT_HISTORY_EMPTY#1
-Command line history empty.
+Command line history empty
 .
 
 
 :TEXT_ERROR_BAD_MCB_CHAIN
-MCB chain corrupt, or MS-DOS incompatible system.
+MCB chain corrupt, or MS-DOS incompatible system
 .
 
 :TEXT_ERROR_UNDEFINED_ERROR#0%
-Undefined error %d.
+Undefined error %d
 .
 
 :TEXT_ERROR_REGION_WARNING#0%
-Illegal memory region %d - ignored.
+Illegal memory region %d - ignored
 .
 
 :TEXT_ERROR_ON_OR_OFF
-Must specify ON or OFF.
+Must specify ON or OFF
 .
 
 :TEXT_ERROR_BAD_VARIABLE
@@ -266,71 +266,71 @@ Bad variable specification.
 .
 
 :TEXT_ERROR_IN_MISSING#1
-FOR: IN missing.
+FOR: IN missing
 .
 
 :TEXT_ERROR_MISSING_PARENTHESES#1
-One or both parentheses missing.
+One or both parentheses missing
 .
 
 :TEXT_ERROR_DO_MISSING#1
-FOR: DO missing.
+FOR: DO missing
 .
 
 :TEXT_ERROR_NO_COMMAND_AFTER_DO#1
-FOR: No command after DO statement.
+FOR: No command after DO statement
 .
 
 :TEXT_ERROR_REDIRECT_FROM_FILE#0%
-Can not redirect input from file '%s'.
+Can not redirect input from file '%s'
 .
 
 :TEXT_ERROR_REDIRECT_TO_FILE#0%
-Can not redirect output to file '%s'.
+Can not redirect output to file '%s'
 .
 
 :TEXT_ERROR_EMPTY_REDIRECTION#1
-Empty redirection.
+Empty redirection
 .
 
 :TEXT_ERROR_INVALID_DATE
-Invalid date.
+Invalid date
 .
 
 :TEXT_ERROR_INVALID_TIME
-Invalid time.
+Invalid time
 .
 
 :TEXT_ERROR_NO_GOTO_LABEL
-No label specified for GOTO.
+No label specified for GOTO
 .
 
 :TEXT_CTTY_NOTIMPLEMENTED
-The CTTY command has been excluded from this COMMAND.COM.
+The CTTY command has been excluded from this COMMAND.COM
 .
 
 :TEXT_ERROR_NORW_DEVICE#0%
-Invalid or no read-write device '%s'.
+Invalid or no read-write device '%s'
 .
 
 :TEXT_ERROR_CTTY_DUP#0%
-Failed to change file descriptors to TTY '%s'.
+Failed to change file descriptors to TTY '%s'
 .
 
 :TEXT_ERROR_L_NOTIMPLEMENTED
-/L not implemented yet.
+/L not implemented yet
 .
 
 :TEXT_ERROR_U_NOTIMPLEMENTED
-/U not implemented yet.
+/U not implemented yet
 .
 
 :TEXT_ERROR_WRITING_DEST
-Error writing to destination.
+Error writing to destination
 .
 
 :TEXT_ERROR_CANNOT_OPEN_SOURCE#0%
-Unable to open source. - '%s'
+Unable to open source - '%s'
 .
 
 :TEXT_ERROR_OPEN_FILE#0%
@@ -346,15 +346,15 @@ Unable to write to file '%s'
 .
 
 :TEXT_ERROR_LEADING_PLUS
-The concatenation character '+' cannot lead the arguments.
+The concatenation character '+' cannot lead the arguments
 .
 
 :TEXT_ERROR_TRAILING_PLUS
-The concatenation character '+' cannot trail the arguments.
+The concatenation character '+' cannot trail the arguments
 .
 
 :TEXT_ERROR_NOTHING_TO_DO
-Nothing to do.
+Nothing to do
 .
 
 :TEXT_ERROR_COPY
@@ -375,19 +375,19 @@ IF: Missing command
 .
 
 :TEXT_NOT_IMPLEMENTED_YET
-Sorry...not implemented yet.
+Sorry...not implemented yet
 .
 
 :TEXT_FAILED_LOAD_STRINGS
-Failed to load messages into memory.
+Failed to load messages into memory
 .
 
 :TEXT_MSG_NOTIMPLEMENTED
-The /MSG option has been excluded from this COMMAND.COM.
+The /MSG option has been excluded from this COMMAND.COM
 .
 
 :TEXT_MSG_ITEMS_DISPLAYED#1%
-%u items displayed.
+%u items displayed
 .
 
 :TEXT_CORRUPT_COMMAND_LINE
@@ -396,7 +396,7 @@ the system COMMAND.COM runs in. Please report this error.
 .
 
 :TEXT_QUOTED_C_OR_K#1
-The /C and /K options cannot be quoted, they are ignored.
+The /C and /K options cannot be quoted, they are ignored
 .
 
 :TEXT_INIT_FULLY_QUALIFIED#1%
@@ -421,20 +421,20 @@ this problem.
 .
 
 :TEXT_ERROR_CWD_FAILED#1%
-Drive %c: not responding.
+Drive %c: not responding
 .
 
 :TEXT_ERROR_KSWAP_ALIAS_SIZE
-Swapping failed: Aliases allocate too much memory.
+Swapping failed: Aliases allocate too much memory
 .
 
 
 :TEXT_ERROR_KSWAP_ALLOCMEM
-Swapping failed: Cannot allocate far memory.
+Swapping failed: Cannot allocate far memory
 .
 
 :TEXT_ERROR_ALIAS_OUT_OF_MEM#1
-Out of alias space.
+Out of alias space
 .
 
 :TEXT_ERROR_ALIAS_NO_SUCH#1%
@@ -442,15 +442,15 @@ No such alias: '%s'
 .
 
 :TEXT_ERROR_ALIAS_INSERT#1
-Failed to insert alias.
+Failed to insert alias
 .
 
 :TEXT_ALIAS_INVALID_NAME#1%
-Invalid alias name '%s'.
+Invalid alias name '%s'
 .
 
 :TEXT_ERROR_LOADING_CONTEXT#1
-Cannot load Context module or Critical Error handler.
+Cannot load Context module or Critical Error handler
 .
 
 :TEXT_ERROR_CONTEXT_OUT_OF_MEMORY#1
@@ -501,7 +501,7 @@ History size is %d bytes.
 .
 
 :TEXT_MSG_DOSKEY
-DOSKEY features are already enabled in the shell.
+DOSKEY features are already enabled in the shell
 .
 
 :TEXT_MSG_ECHO_STATE#0%
@@ -516,7 +516,7 @@ VERIFY is %s
 DEBUG output is %s.
 .
 :TEXT_MSG_FDDEBUG_TARGET#0%
-DEBUG output is printed to '%s'.
+DEBUG output is printed to '%s'
 .
 
 :TEXT_MSG_BREAK_STATE#0%
@@ -729,13 +729,13 @@ Sat\
 # Displayed by DEL how many files were removed.
 # These three strings must be kept in order!
 :TEXT_MSG_DEL_CNT_FILES#1
-no file removed.
+No files removed
 .
 :TEXT_MSG_DEL_CNT_FILES_1#1
-one file removed.
+1 file removed
 .
 :TEXT_MSG_DEL_CNT_FILES_2#1%
-%u files removed.
+%u files removed
 .
 
 :TEXT_MSG_SHOWCMD_INTERNAL_COMMANDS

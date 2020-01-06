@@ -193,6 +193,7 @@ ok:
 		now = *(unsigned far *)MK_FP(0x40,0x6c);
 		
 		if(!doStat
+		 && toCopy
 		 && now - startTime > 15 * 18
 		 && isatty(fileno(stdout)))
 			doStat = TRUE;

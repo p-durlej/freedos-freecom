@@ -152,7 +152,10 @@ void displayPrompt(const char *pr)
                 intrpt(0x21, &r);
             }
 
-            if(r.r_flags & 1) break;
+            if(r.r_flags & 1) {
+                printf("%c:?", d + 'A');
+                break;
+            }
 
             printf("%c:\\", d + 'A');
             outs(pathname);

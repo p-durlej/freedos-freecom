@@ -223,6 +223,18 @@ _exit:
 	return retval;
 }
 
+static void prnames(const char *src, const char *dst, int append)
+{
+	char *s, *d;
+	
+	s = abspath(src, 0);
+	d = abspath(dst, 0);
+	
+	displayString(TEXT_MSG_COPYING, s ? s : src, append ? "=>>": "=>", d ? d : dst);
+	
+	free(s);
+	free(d);
+}
 
 static int copy(char *dst, char *pattern, struct CopySource *src
   , int openMode)
@@ -361,8 +373,7 @@ static int copy(char *dst, char *pattern, struct CopySource *src
 #endif
           keepFTime = 0; /* if error: turn it off */
 
-      displayString(TEXT_MSG_COPYING, rSrc
-	   , (openMode == 'a' || h != src)? "=>>": "=>", rDest);
+      prnames(rSrc, rDest, (openMode == 'a' || h != src));
       if(cbreak) {
         dos_close(fdin);
         dos_close(fdout);
